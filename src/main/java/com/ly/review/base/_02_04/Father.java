@@ -1,4 +1,4 @@
-package com.ly.review.base;
+package com.ly.review.base._02_04;
 
 public class Father {
 	private int i=test();

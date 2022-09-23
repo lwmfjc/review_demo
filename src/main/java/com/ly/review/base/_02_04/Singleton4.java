@@ -1,4 +1,4 @@
-package com.ly.review.base;
+package com.ly.review.base._02_04;
 
 public class Singleton4 {
 	//为了防止重排序，需要添加volatile关键字
