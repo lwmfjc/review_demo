@@ -40,7 +40,7 @@ class A{
 public class LyTest01 {
 
     public static void main(String[] args) {
-        A a1=new A();
+        /*A a1=new A();
         a1.setAge(10);
         a1.setName("a1");
         A a2=new A();
@@ -50,6 +50,12 @@ public class LyTest01 {
         hashSet.add(a1);
         hashSet.add(a2);
         boolean contains = hashSet.contains(a2);
-        System.out.println (contains);
+        System.out.println (contains);*/
+        String s1="abc";
+        String s2=new String("abc");
+        String s3="abc";
+        String s4=new String("abc");
+        System.out.println(s1==s2);
+        System.out.println(s1==s3);
     }
 }
