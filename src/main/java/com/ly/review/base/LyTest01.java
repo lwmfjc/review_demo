@@ -7,6 +7,10 @@ class A{
     private String name;
     private int age;
 
+    public <E> int  geA(E e){
+        System.out.println(e.toString());
+        return 1;
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -51,11 +55,18 @@ public class LyTest01 {
         hashSet.add(a2);
         boolean contains = hashSet.contains(a2);
         System.out.println (contains);*/
-        String s1="abc";
+       /* String s1="abc";
         String s2=new String("abc");
         String s3="abc";
         String s4=new String("abc");
         System.out.println(s1==s2);
         System.out.println(s1==s3);
+        A a
+                =new A();
+        a.<Object>geA(new Object());*/
+        float a=2.0f-1.9f;
+        float b=3.1f- 3f;
+        System.out.println(a);
+        System.out.println(b);
     }
 }
