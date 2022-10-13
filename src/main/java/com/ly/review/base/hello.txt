@@ -1,0 +1,39 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   T.java
+
+package com.ly.review.base;
+
+
+public final class T extends Enum
+{
+
+    public static T[] values()
+    {
+        return (T[])$VALUES.clone();
+    }
+
+    public static T valueOf(String s)
+    {
+        return (T)Enum.valueOf(com/ly/review/base/T, s);
+    }
+
+    private T(String s, int i)
+    {
+        super(s, i);
+    }
+
+    public static final T Spring;
+    public static final T SUMMER;
+    private static final T $VALUES[];
+
+    static 
+    {
+        Spring = new T("Spring", 0);
+        SUMMER = new T("SUMMER", 1);
+        $VALUES = (new T[] {
+            Spring, SUMMER
+        });
+    }
+}
