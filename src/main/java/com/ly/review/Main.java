@@ -10,17 +10,15 @@ import java.util.stream.Collectors;
 
 @Slf4j
 public class Main {
-    Pattern ptCompile = Pattern.compile("_[0-9]{6}_[0-9]{6}(\\([0-9]+\\))*\\..+");
+    Pattern ptCompileAll = Pattern.compile("_[0-9]{6}_[0-9]{6}(\\([0-9]+\\))*\\..+");
+    Pattern ptCompileNum = Pattern.compile("_[0-9]{6}_[0-9]{6}");
 
     public static void main(String[] args) {
-        /*Matcher abc = aa.matcher("aaaabc_198293_786542(11).pdf");
-        if (abc.find()){
-            System.out.println(abc.group());
-        } */
         String classPath = System.getProperty("user.dir");
-        log.info("当前目录:{}",classPath);
+        log.info("当前目录:{}", classPath);
+        classPath = "F:\\java_test\\git\\hexo\\review_demo\\src\\test\\resources\\a";
 
-         File directory = new File(classPath);
+        File directory = new File(classPath);
         new Main().b(directory);
     }
 
@@ -63,7 +61,7 @@ public class Main {
                         String nameCompareRemove = removeExtra(name);
                         if (!"".equals(nameCompareRemove)) {
                             String s1 = removeExtra(nameCompare);
-                            //要比较的文件名去掉前缀之后
+                            //要比较的文件名去掉后缀之后
                             if (nameCompareRemove.equals(nameCompare) || nameCompareRemove.equals(s1)) {
                                 fileRepeat.add(fileCompare);
                                 namesHandle.add(fileCompare.getName());
@@ -102,9 +100,14 @@ public class Main {
                                 iteratorDelete.remove();
                             }
                         }
+                       /* try {
+                            Thread.currentThread().sleep(1000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }*/
                         //重命名最大文件
                         String fileMaxName = fileMax.getName();
-                        log.info("去除自定义生成的数字{}", removeExtra(fileMaxName));
+                        log.info("需要重命名的文件{}", fileMaxName );
                         String absolutePath = fileMax.getAbsolutePath();//文件路径
                         //文件路径去除文件名
                         String substringWithoutFileName = absolutePath.substring(0, absolutePath.length() - fileMaxName.length());
@@ -124,62 +127,57 @@ public class Main {
         }
     }
 
+    /**
+     * 获取自定义中的数字
+     *
+     * @param fileName
+     * @return
+     */
     private Long getExtraNum(String fileName) {
+        Long num = 0L;
+        //如果是自定义拓展
+        if (isAutoExtra(fileName)) {
+            Matcher matcher = ptCompileNum.matcher(fileName);
+            String s = "";
+            while (matcher.find()) {
+                s = matcher.group();
+            }
+            if (!"".equals(s)) {
+                String s1 = s.replaceAll("_", "");
+                num = Long.parseLong(s1);
+            }
+        }
+        return num;
+    }
+
+    /**
+     * 去除自定义格式
+     *
+     * @param fileName
+     * @return
+     */
+    private String removeExtra(String fileName) {
+        //如果是自定义拓展
         if (isAutoExtra(fileName)) {
 
-            fileName = fileName.replaceAll("_", "");
             int i = fileName.lastIndexOf(".");
-            if (i > 0) {
-                fileName = fileName.substring(0, i);
-            }
+            String fixStr = fileName.substring(i);//后缀名
 
-            fileName = fileName.substring(fileName.length() - 12);
-            return Long.parseLong(fileName);
+            fileName = fileName.replaceAll(ptCompileAll.pattern(), "");
+            fileName += fixStr;
         }
-        return 0L;
+        return fileName;
     }
 
-    private String removeExtra(String fileName) {
-
-        String fileNameSource = fileName;
-        int i = fileName.lastIndexOf(".");
-        String fixStr = fileName.substring(i);//后缀名
-        if (i > 0) {
-            fileName = fileName.substring(0, i);
-        }
-
-        //判断是否是自定义拓展的
-        if (isAutoExtra(fileNameSource)) {
-            if (i > 0) {
-                fileName = fileName.substring(0, i);
-                int length = fileName.length();
-                if (length > 14) {
-                    String s = fileName.substring(0, length - 14);
-                    return s + fixStr;
-                }
-            }
-        }
-        return fileName + fixStr;
-    }
-
+    /**
+     * 是否是加了自定义格式
+     *
+     * @param fileName
+     * @return
+     */
     private boolean isAutoExtra(String fileName) {
-        int i = fileName.lastIndexOf(".");
-        if (i > 0) {
-            fileName = fileName.substring(0, i);
-            int length = fileName.length();
-            if (length > 14) {
-                String s = fileName.replaceAll("_", "");
-                int lengthReplace = s.length();
-                if (lengthReplace > 12) {
-                    String substring = s.substring(lengthReplace - 12);
-                    if (substring.matches("^[0-9]*$")) {
-                        return true;
-                    }
-                }
-                //System.out.println("去除后的文件名为："+substring);
-            }
-        }
-        return false;
+        Matcher matcher = ptCompileAll.matcher(fileName);
+        return matcher.find();
     }
 
 }

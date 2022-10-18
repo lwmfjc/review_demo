@@ -941,3 +941,429 @@ INFO:true
 INFO:true
 2022-10-18 16:08:43 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
 INFO:false
+2022-10-18 16:26:12 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:22) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:27:42 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:22) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:28:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:22) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:28:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:22) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:28:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:22) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:31:03 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:25) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:33:01 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:25) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:33:39 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:24) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:35:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:24) ]
+INFO:false
+2022-10-18 16:35:42 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:24) ]
+INFO:false
+2022-10-18 16:36:16 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:24) ]
+INFO:false
+2022-10-18 16:39:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:39:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:39:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a21_221016_191633.txt
+2022-10-18 16:39:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a21_221016_192233.txt
+2022-10-18 16:39:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a21_221016_192233.txt
+2022-10-18 16:39:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a21
+2022-10-18 16:39:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a2_drt\
+2022-10-18 16:39:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a2_drt\a21
+2022-10-18 16:39:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:40:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:40:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:40:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191633.txt
+2022-10-18 16:40:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_223316_191633.txt
+2022-10-18 16:40:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_223316_191633.txt
+2022-10-18 16:40:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:40:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:40:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:40:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:41:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:41:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:41:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221033_191655.txt
+2022-10-18 16:41:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 16:41:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221033_191655.txt
+2022-10-18 16:41:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:41:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:41:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:41:34 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:43:03 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:43:42 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:43:56 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:47:53 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:_[0-9]{6}_[0-9]{6}(\([0-9]+\))*\..+
+2022-10-18 16:48:33 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:48:33 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:48:33 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221045_191655(123).txt
+2022-10-18 16:48:33 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 16:48:33 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221045_191655(123).txt
+2022-10-18 16:48:33 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:48:33 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:48:33 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:48:33 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:48:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:48:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:48:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 16:48:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 16:48:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191655.txt
+2022-10-18 16:48:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:48:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:48:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:48:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191656(123).txt
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191656(123).txt
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:49:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:51:18 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:52:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:52:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:52:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 16:52:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 16:52:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 16:52:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 16:52:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:52:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:52:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:52:50 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:53:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:53:17 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:53:51 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 16:53:51 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 16:53:51 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 16:53:51 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 16:53:51 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 16:53:51 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 16:53:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:去除自定义生成的数字a1.txt
+2022-10-18 16:53:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 16:53:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 16:53:59 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 16:58:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:04:48 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:05:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:05:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 17:05:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 17:05:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 17:05:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 17:05:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 17:05:42 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:需要重命名的文件a1_221016_191665.txt
+2022-10-18 17:05:46 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 17:05:46 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 17:05:46 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 17:06:04 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:06:04 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 17:06:04 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 17:06:04 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 17:06:04 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 17:06:04 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 17:06:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:需要重命名的文件a1_221016_191665.txt
+2022-10-18 17:06:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 17:06:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 17:06:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:需要重命名的文件a1_221016_191665.txt
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 17:31:10 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 17:40:01 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:需要重命名的文件a1_221016_191665.txt
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 17:40:13 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 17:40:40 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:40:40 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 17:40:40 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 17:40:40 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 17:40:40 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 17:40:40 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 17:40:48 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:105) ]
+INFO:需要重命名的文件a1_221016_191665.txt
+2022-10-18 17:40:48 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:109) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 17:40:48 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 17:40:48 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:112) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:需要重命名的文件a1_221016_191665.txt
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:114) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:115) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 17:42:00 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:117) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 17:42:20 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:18) ]
+INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 17:42:20 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:76) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 17:42:20 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191655.txt
+2022-10-18 17:42:20 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1.txt
+2022-10-18 17:42:20 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:78) ]
+INFO:a1_221016_191665.txt
+2022-10-18 17:42:20 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:88) ]
+INFO:文件最大的是：a1_221016_191665.txt
+2022-10-18 17:42:21 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:110) ]
+INFO:需要重命名的文件a1_221016_191665.txt
+2022-10-18 17:42:21 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:114) ]
+INFO:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\
+2022-10-18 17:42:21 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:115) ]
+INFO:重命名:F:\java_test\git\hexo\review_demo\src\test\resources\a\a_drt\a1_drt\a1.txt
+2022-10-18 17:42:21 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:117) ]
+INFO:--end--存在重复的文件
+

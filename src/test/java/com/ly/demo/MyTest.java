@@ -14,6 +14,39 @@ import java.util.stream.Collectors;
 @Slf4j
 public class MyTest {
 
+    @Test
+    public void bb(){
+        String a="11,22,33,21";
+        String b="33,21,11,22";
+        //分割字符串
+        String[] split = a.split(",");
+        String[] split1 = b.split(",");
+        //hashMap
+        HashMap<String,Integer> map1=new HashMap<>();
+        HashMap<String,Integer> map2=new HashMap<>();
+
+        for(String s:split){
+            map1.put(s,map1.get(s)==null ? 1 : map1.get(s)+1);
+        }
+        System.out.println(map1);
+
+        for(String s:split1){
+            map2.put(s,map2.get(s)==null ? 1 : map2.get(s)+1);
+        }
+        System.out.println(map2);
+        //遍历map1
+        Set<Map.Entry<String, Integer>> entries = map1.entrySet();
+        for(Map.Entry<String,Integer> entry :entries){
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            if(!value.equals(map2.get(key))){
+                System.out.println("不相等");
+                break;
+            }
+        }
+
+    }
+
     private static Unsafe reflectGetUnsafe() {
         try {
             Field field = Unsafe.class.getDeclaredField("theUnsafe");
