@@ -885,3 +885,59 @@ INFO:当前目录:F:\java_test\git\hexo\review_demo
 INFO:当前目录:C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;F:\java_test\git\hexo\review_demo\target\classes;D:\maven-3.5.3\repository\org\slf4j\slf4j-reload4j\2.0.3\slf4j-reload4j-2.0.3.jar;D:\maven-3.5.3\repository\ch\qos\reload4j\reload4j\1.2.22\reload4j-1.2.22.jar;D:\maven-3.5.3\repository\org\slf4j\slf4j-api\2.0.3\slf4j-api-2.0.3.jar;D:\maven-3.5.3\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;D:\maven-3.5.3\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar
 2022-10-18 14:52:40 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:15) ]
 INFO:当前目录:F:\java_test\git\hexo\review_demo
+2022-10-18 15:53:36 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:13) ]
+INFO:false
+2022-10-18 15:53:44 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:13) ]
+INFO:false
+2022-10-18 15:53:54 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:13) ]
+INFO:false
+2022-10-18 15:54:06 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:13) ]
+INFO:false
+2022-10-18 15:54:16 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:13) ]
+INFO:false
+2022-10-18 15:55:16 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:13) ]
+INFO:false
+2022-10-18 15:55:31 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:13) ]
+INFO:false
+2022-10-18 15:56:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:13) ]
+INFO:false
+2022-10-18 15:56:22 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:13) ]
+INFO:false
+2022-10-18 15:57:38 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:14) ]
+INFO:true
+2022-10-18 15:57:45 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:14) ]
+INFO:true
+2022-10-18 15:57:51 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:14) ]
+INFO:false
+2022-10-18 15:59:05 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:14) ]
+INFO:false
+2022-10-18 15:59:12 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:14) ]
+INFO:false
+2022-10-18 15:59:21 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:14) ]
+INFO:false
+2022-10-18 15:59:28 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:14) ]
+INFO:true
+2022-10-18 16:04:58 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:false
+2022-10-18 16:05:14 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:false
+2022-10-18 16:05:24 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:true
+2022-10-18 16:06:08 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:true
+2022-10-18 16:06:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:true
+2022-10-18 16:06:23 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:false
+2022-10-18 16:06:29 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:true
+2022-10-18 16:06:37 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:false
+2022-10-18 16:06:45 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:true
+2022-10-18 16:06:52 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:true
+2022-10-18 16:08:32 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:true
+2022-10-18 16:08:43 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:16) ]
+INFO:false

@@ -1,14 +1,22 @@
 package com.ly.review;
+
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 @Slf4j
 public class Main {
+    Pattern ptCompile = Pattern.compile("_[0-9]{6}_[0-9]{6}(\\([0-9]+\\))*\\..+");
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
+        /*Matcher abc = aa.matcher("aaaabc_198293_786542(11).pdf");
+        if (abc.find()){
+            System.out.println(abc.group());
+        } */
         String classPath = System.getProperty("user.dir");
         log.info("当前目录:{}",classPath);
 
@@ -16,7 +24,7 @@ public class Main {
         new Main().b(directory);
     }
 
-    public   void b(File directory) {
+    public void b(File directory) {
         if (directory.isDirectory()) {
             File[] files = directory.listFiles();
             List<File> filesList = Arrays.asList(files);
@@ -28,12 +36,12 @@ public class Main {
 
             Iterator<File> iterator = notDirectoryS.iterator();
             //处理过的文件名称
-            Set<String> namesHandle=new HashSet<>();
+            Set<String> namesHandle = new HashSet<>();
             while (iterator.hasNext()) {
                 File file = iterator.next();
                 String name = file.getName();
                 //System.out.println(file.getPath());
-                if(namesHandle.contains(name)){
+                if (namesHandle.contains(name)) {
                     continue;
                 }
 
@@ -42,10 +50,10 @@ public class Main {
 
                     //进行比较
                     Iterator<File> iteratorCompare = toBeCompare.iterator();
-                    List<File> fileRepeat=new ArrayList<>();
+                    List<File> fileRepeat = new ArrayList<>();
                     fileRepeat.add(file);
                     namesHandle.add(file.getName());
-                    while (iteratorCompare.hasNext()){
+                    while (iteratorCompare.hasNext()) {
                         File fileCompare = iteratorCompare.next();
                         //名字相同直接不处理
                         String nameCompare = fileCompare.getName();
@@ -53,10 +61,10 @@ public class Main {
                             continue;
                         }
                         String nameCompareRemove = removeExtra(name);
-                        if(!"".equals(nameCompareRemove)){
+                        if (!"".equals(nameCompareRemove)) {
                             String s1 = removeExtra(nameCompare);
                             //要比较的文件名去掉前缀之后
-                            if(nameCompareRemove.equals(nameCompare) || nameCompareRemove.equals(s1)){
+                            if (nameCompareRemove.equals(nameCompare) || nameCompareRemove.equals(s1)) {
                                 fileRepeat.add(fileCompare);
                                 namesHandle.add(fileCompare.getName());
                                 iteratorCompare.remove();
@@ -66,50 +74,50 @@ public class Main {
                     }
 
 
-                     if (fileRepeat.size() > 1) {
+                    if (fileRepeat.size() > 1) {
                         log.info("--start--存在重复的文件\n");
-                         fileRepeat.forEach(file1 -> {
+                        fileRepeat.forEach(file1 -> {
                             log.info(file1.getName());
                         });
-                         File fileMax = fileRepeat.stream().max((o1, o2) -> {
-                             String name1 = o1.getName();
-                             String name2 = o2.getName();
+                        File fileMax = fileRepeat.stream().max((o1, o2) -> {
+                            String name1 = o1.getName();
+                            String name2 = o2.getName();
 
-                             Long name1Num = getExtraNum(name1);
-                             Long name2Num = getExtraNum(name2);
-                             return name1Num.compareTo(name2Num);
-                         }).get();
-                         log.info("文件最大的是：" + fileMax.getName());
-                         //删除其他的文件
-                         Iterator<File> iteratorDelete = fileRepeat.iterator();
-                         while (iteratorDelete.hasNext()){
-                             File next = iteratorDelete.next();
-                             if(next.getName().equals(fileMax.getName())){
-                                 continue;
-                             }
-                             if(!next.exists()){
-                                 log.info("文件不存在");
-                             }else {
-                                 next.delete();
-                                 iteratorDelete.remove();
-                             }
-                         }
-                         //重命名最大文件
-                         String fileMaxName = fileMax.getName();
-                         log.info("去除自定义生成的数字{}",removeExtra(fileMaxName));
-                         String absolutePath = fileMax.getAbsolutePath();//文件路径
-                         //文件路径去除文件名
-                         String substringWithoutFileName = absolutePath.substring(0, absolutePath.length() - fileMaxName.length());
-                         log.info(substringWithoutFileName);
-                         log.info("重命名:{}",substringWithoutFileName+removeExtra(fileMaxName));
-                         fileMax.renameTo(new File(substringWithoutFileName+removeExtra(fileMaxName)));
-                         log.info("--end--存在重复的文件\n");
+                            Long name1Num = getExtraNum(name1);
+                            Long name2Num = getExtraNum(name2);
+                            return name1Num.compareTo(name2Num);
+                        }).get();
+                        log.info("文件最大的是：" + fileMax.getName());
+                        //删除其他的文件
+                        Iterator<File> iteratorDelete = fileRepeat.iterator();
+                        while (iteratorDelete.hasNext()) {
+                            File next = iteratorDelete.next();
+                            if (next.getName().equals(fileMax.getName())) {
+                                continue;
+                            }
+                            if (!next.exists()) {
+                                log.info("文件不存在");
+                            } else {
+                                next.delete();
+                                iteratorDelete.remove();
+                            }
+                        }
+                        //重命名最大文件
+                        String fileMaxName = fileMax.getName();
+                        log.info("去除自定义生成的数字{}", removeExtra(fileMaxName));
+                        String absolutePath = fileMax.getAbsolutePath();//文件路径
+                        //文件路径去除文件名
+                        String substringWithoutFileName = absolutePath.substring(0, absolutePath.length() - fileMaxName.length());
+                        log.info(substringWithoutFileName);
+                        log.info("重命名:{}", substringWithoutFileName + removeExtra(fileMaxName));
+                        fileMax.renameTo(new File(substringWithoutFileName + removeExtra(fileMaxName)));
+                        log.info("--end--存在重复的文件\n");
                     }
                 }
             }
 
             List<File> directoryS = filesList.stream().filter(File::isDirectory).collect(Collectors.toList());
-            for (File file:directoryS) {
+            for (File file : directoryS) {
                 b(file);
             }
 
@@ -117,22 +125,23 @@ public class Main {
     }
 
     private Long getExtraNum(String fileName) {
-        if(isAutoExtra(fileName)){
+        if (isAutoExtra(fileName)) {
 
-            fileName= fileName.replaceAll("_", "");
+            fileName = fileName.replaceAll("_", "");
             int i = fileName.lastIndexOf(".");
             if (i > 0) {
                 fileName = fileName.substring(0, i);
             }
 
-            fileName=fileName.substring(fileName.length()-12);
+            fileName = fileName.substring(fileName.length() - 12);
             return Long.parseLong(fileName);
         }
         return 0L;
     }
+
     private String removeExtra(String fileName) {
 
-        String fileNameSource=fileName;
+        String fileNameSource = fileName;
         int i = fileName.lastIndexOf(".");
         String fixStr = fileName.substring(i);//后缀名
         if (i > 0) {
@@ -140,17 +149,17 @@ public class Main {
         }
 
         //判断是否是自定义拓展的
-        if(isAutoExtra(fileNameSource)) {
+        if (isAutoExtra(fileNameSource)) {
             if (i > 0) {
                 fileName = fileName.substring(0, i);
                 int length = fileName.length();
                 if (length > 14) {
                     String s = fileName.substring(0, length - 14);
-                    return s+fixStr;
+                    return s + fixStr;
                 }
             }
         }
-        return fileName+fixStr;
+        return fileName + fixStr;
     }
 
     private boolean isAutoExtra(String fileName) {
