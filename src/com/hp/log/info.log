@@ -1978,3 +1978,237 @@ INFO:文件：a1_221016_191655.txt--删除成功
 INFO:文件：a1_221016_191665.txt--删除成功
 2022-10-18 21:13:12 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:152) ]
 INFO:文件：a1_231016_191665(12).txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.main(Main.java:25) ]
+INFO:当前目录:D:\Users\ly\Documents\git\hexo\review_demo
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\src\com\hp\aa\a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\src\com\hp\aa\a1.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_221016_191633.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_221016_191655.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\src\com\hp\log\a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\src\com\hp\log\a1.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_221016_191633.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_221016_191655.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_221016_191665.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_231016_191665(12).txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：a1_231016_191665(12).txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件a1_231016_191665(12).txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\src\test\resources\a1_231016_191665(12).txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\src\test\resources\a1.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_221016_191655.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_221016_191665.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_231016_191665(12).txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：a_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件a_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\src\test\resources\a - 副本\a_drt\a1_drt\a_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\src\test\resources\a - 副本\a_drt\a1_drt\a.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a_221016_191633.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a_221016_191655.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a22_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a22.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：a22_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件a22_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\src\test\resources\a - 副本\a_drt\a2_drt\a22_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\src\test\resources\a - 副本\a_drt\a2_drt\a22.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a22_221016_191633.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:b11_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:b11.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：b11_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件b11_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\src\test\resources\a - 副本\b_drt\b1_drt\x\b11_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\src\test\resources\a - 副本\b_drt\b1_drt\x\b11.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：b11_221016_191633.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_221016_191665.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a1_231016_191665(12).txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：a1_231016_191665(12).txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件a1_231016_191665(12).txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\target\test-classes\a1_231016_191665(12).txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\target\test-classes\a1.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_221016_191655.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_221016_191665.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a1_231016_191665(12).txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：a_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件a_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\target\test-classes\a - 副本\a_drt\a1_drt\a_221016_191655.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\target\test-classes\a - 副本\a_drt\a1_drt\a.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a_221016_191633.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a_221016_191655.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a22_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:a22.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：a22_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件a22_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\target\test-classes\a - 副本\a_drt\a2_drt\a22_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\target\test-classes\a - 副本\a_drt\a2_drt\a22.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：a22_221016_191633.txt--删除成功
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:83) ]
+INFO:--start--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:b11_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.lambda$b$0(Main.java:85) ]
+INFO:b11.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:95) ]
+INFO:--end--重复的文件
+
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:96) ]
+INFO:文件最大的是：b11_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:102) ]
+INFO:需要拷贝的文件b11_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:106) ]
+INFO:从：D:\Users\ly\Documents\git\hexo\review_demo\target\test-classes\a - 副本\b_drt\b1_drt\x\b11_221016_191633.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:107) ]
+INFO:拷贝到:D:\Users\ly\Documents\git\hexo\review_demo\target\test-classes\a - 副本\b_drt\b1_drt\x\b11.txt
+2022-10-18 21:25:15 下午 [Thread: main][ Class:com.ly.review.Main >> Method: com.ly.review.Main.b(Main.java:131) ]
+INFO:文件：b11_221016_191633.txt--删除成功

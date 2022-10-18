@@ -134,6 +134,29 @@ public class Main {
                         }
 
                     }
+                    else {
+                        File fileFrom = fileRepeat.get(0);
+                        String name1 = fileFrom.getName();
+                        if(isAutoExtra(name1)){
+                            //改成非自定义拓展文件名
+                            String s = removeExtra(name1);
+                            try {
+                                //copy并删除
+                                String absolutePath = fileFrom.getAbsolutePath();
+                                String substringWithoutFileName = absolutePath.substring(0, absolutePath.length()
+                                        - name1.length());
+
+                                File fileTo = new File(substringWithoutFileName + s);
+                                FileInputStream fileInputStream = new FileInputStream(fileFrom);
+                                FileOutputStream fileOutputStream = new FileOutputStream(fileTo);
+                                IOUtils.copy(fileInputStream, fileOutputStream);
+                                fileInputStream.close();
+                                fileOutputStream.close();
+                            }catch (Exception e){
+                                e.printStackTrace();
+                            }
+                        }
+                    }
                 }
             }
 
