@@ -1,7 +1,5 @@
 package com.ly.review.base;
 
-import com.sun.deploy.util.StringUtils;
-
 enum X{
     A,B,C,D
 }

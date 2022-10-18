@@ -1,60 +1,22 @@
-package com.ly.demo;
-
+package com.ly.review;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.util.StringUtils;
-import sun.misc.Unsafe;
 
 import java.io.File;
-import java.lang.reflect.Field;
 import java.util.*;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 @Slf4j
-public class MyTest {
+public class Main {
 
-    private static Unsafe reflectGetUnsafe() {
-        try {
-            Field field = Unsafe.class.getDeclaredField("theUnsafe");
-            field.setAccessible(true);
-            return (Unsafe) field.get(null);
-        } catch (Exception e) {
+    public static void main(String[] args)  {
+        String classPath = System.getProperty("user.dir");
+        log.info("当前目录:{}",classPath);
 
-            return null;
-        }
+        /*File directory = new File("F:\\java_test\\git\\hexo\\review_demo\\src\\test\\resources\\a");
+        new Main().b(directory);*/
     }
 
-    @Test
-    public void a() {
-        log.info("hello,world!");
-        Unsafe unsafe = reflectGetUnsafe();
-        int size = 4;
-        long addr = unsafe.allocateMemory(size);
-        long addr3 = unsafe.reallocateMemory(addr, size * 2);
-        System.out.println("addr: " + addr);
-        System.out.println("addr3: " + addr3);
-        try {
-            unsafe.setMemory(null, addr, size, (byte) 1);
-            for (int i = 0; i < 2; i++) {
-                unsafe.copyMemory(null, addr, null, addr3 + size * i, 4);
-            }
-            System.out.println(unsafe.getInt(addr));
-            System.out.println(unsafe.getLong(addr3));
-        } finally {
-            unsafe.freeMemory(addr);
-            unsafe.freeMemory(addr3);
-        }
-    }
-
-    @Test
-    public void mainIn() {
-        File directory = new File("F:\\java_test\\git\\hexo\\review_demo\\src\\test\\resources\\a");
-        b(directory);
-    }
-
-    @Test
-    public void b(File directory) {
+    public   void b(File directory) {
         if (directory.isDirectory()) {
             File[] files = directory.listFiles();
             List<File> filesList = Arrays.asList(files);
@@ -91,7 +53,7 @@ public class MyTest {
                             continue;
                         }
                         String nameCompareRemove = removeExtra(name);
-                        if(StringUtils.isNotBlank(nameCompareRemove)){
+                        if(!"".equals(nameCompareRemove)){
                             String s1 = removeExtra(nameCompare);
                             //要比较的文件名去掉前缀之后
                             if(nameCompareRemove.equals(nameCompare) || nameCompareRemove.equals(s1)){
