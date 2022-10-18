@@ -1,13 +1,20 @@
 package com.ly.review;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+/**
+ *
+ */
 @Slf4j
 public class Main {
     Pattern ptCompileAll = Pattern.compile("_[0-9]{6}_[0-9]{6}(\\([0-9]+\\))*\\..+");
@@ -16,7 +23,7 @@ public class Main {
     public static void main(String[] args) {
         String classPath = System.getProperty("user.dir");
         log.info("当前目录:{}", classPath);
-        classPath = "F:\\java_test\\git\\hexo\\review_demo\\src\\test\\resources\\a";
+        // classPath = "D:\\Users\\ly\\Documents\\git\\hexo\\review_demo\\src\\test\\resources\\a";
 
         File directory = new File(classPath);
         new Main().b(directory);
@@ -73,7 +80,7 @@ public class Main {
 
 
                     if (fileRepeat.size() > 1) {
-                        log.info("--start--存在重复的文件\n");
+                        log.info("--start--重复的文件\n");
                         fileRepeat.forEach(file1 -> {
                             log.info(file1.getName());
                         });
@@ -85,36 +92,47 @@ public class Main {
                             Long name2Num = getExtraNum(name2);
                             return name1Num.compareTo(name2Num);
                         }).get();
+                        log.info("--end--重复的文件\n");
                         log.info("文件最大的是：" + fileMax.getName());
+
+                        //拷贝文件名最大的文件
+
+                        //最大文件去除自定义生成的后缀
+                        String fileMaxName = fileMax.getName();
+                        log.info("需要拷贝的文件{}", fileMaxName);
+                        String absolutePath = fileMax.getAbsolutePath();//文件路径
+                        //文件路径去除文件名
+                        String substringWithoutFileName = absolutePath.substring(0, absolutePath.length() - fileMaxName.length());
+                        log.info("从：{}", fileMax.getAbsolutePath());
+                        log.info("拷贝到:{}", substringWithoutFileName + removeExtra(fileMaxName));
+                        try {
+                            File fileTo = new File(substringWithoutFileName + removeExtra(fileMaxName));
+                            FileInputStream fileInputStream = new FileInputStream(fileMax);
+                            FileOutputStream fileOutputStream = new FileOutputStream(fileTo);
+                            IOUtils.copy(fileInputStream, fileOutputStream);
+                            fileInputStream.close();
+                            fileOutputStream.close();
+                        } catch (Exception e) {
+                            System.out.println(e.getMessage());
+                        }
+
+
                         //删除其他的文件
                         Iterator<File> iteratorDelete = fileRepeat.iterator();
                         while (iteratorDelete.hasNext()) {
                             File next = iteratorDelete.next();
-                            if (next.getName().equals(fileMax.getName())) {
+                            if (next.getName().equals(removeExtra(fileMaxName))) {
                                 continue;
                             }
                             if (!next.exists()) {
                                 log.info("文件不存在");
                             } else {
-                                next.delete();
+                                boolean delete = next.delete();
+                                log.info("文件：{}--删除{}", next.getName(), delete ? "成功" : "失败");
                                 iteratorDelete.remove();
                             }
                         }
-                       /* try {
-                            Thread.currentThread().sleep(1000);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }*/
-                        //重命名最大文件
-                        String fileMaxName = fileMax.getName();
-                        log.info("需要重命名的文件{}", fileMaxName );
-                        String absolutePath = fileMax.getAbsolutePath();//文件路径
-                        //文件路径去除文件名
-                        String substringWithoutFileName = absolutePath.substring(0, absolutePath.length() - fileMaxName.length());
-                        log.info(substringWithoutFileName);
-                        log.info("重命名:{}", substringWithoutFileName + removeExtra(fileMaxName));
-                        fileMax.renameTo(new File(substringWithoutFileName + removeExtra(fileMaxName)));
-                        log.info("--end--存在重复的文件\n");
+
                     }
                 }
             }
