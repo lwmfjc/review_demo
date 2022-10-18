@@ -1,2 +1,66 @@
-2022-10-12 08:57:14 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.a(MyTest.java:24) ]
-INFO:hello,world!
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:69) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$null$1(MyTest.java:71) ]
+INFO:a12.txt
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:73) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:69) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$null$1(MyTest.java:71) ]
+INFO:a11.txt
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:73) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:69) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$null$1(MyTest.java:71) ]
+INFO:a21.txt
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:73) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:69) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$null$1(MyTest.java:71) ]
+INFO:a22.txt
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:73) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:69) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$null$1(MyTest.java:71) ]
+INFO:b11.txt
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:73) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:69) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$null$1(MyTest.java:71) ]
+INFO:b12.txt
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:73) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:69) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$null$1(MyTest.java:71) ]
+INFO:b21.txt
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:73) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:69) ]
+INFO:--start--存在重复的文件
+
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$null$1(MyTest.java:71) ]
+INFO:b22.txt
+2022-10-18 09:53:57 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:73) ]
+INFO:--end--存在重复的文件
+
+2022-10-18 10:31:01 上午 [Thread: main][ Class:com.ly.demo.MyTest >> Method: com.ly.demo.MyTest.lambda$b$2(MyTest.java:70) ]
+INFO:a_221016_191633.txt
