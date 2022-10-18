@@ -23,7 +23,7 @@ public class Main {
     public static void main(String[] args) {
         String classPath = System.getProperty("user.dir");
         log.info("当前目录:{}", classPath);
-        // classPath = "D:\\Users\\ly\\Documents\\git\\hexo\\review_demo\\src\\test\\resources\\a";
+        //classPath = "D:\\Users\\ly\\Documents\\git\\hexo\\review_demo\\src\\test\\resources\\a";
 
         File directory = new File(classPath);
         new Main().b(directory);
@@ -133,13 +133,14 @@ public class Main {
                             }
                         }
 
-                    }
-                    else {
+                    } else {
                         File fileFrom = fileRepeat.get(0);
                         String name1 = fileFrom.getName();
-                        if(isAutoExtra(name1)){
+                        if (isAutoExtra(name1)) {
                             //改成非自定义拓展文件名
                             String s = removeExtra(name1);
+                            log.info("--start修改自定义拓展文件名");
+                            log.info("原文件名:{}", fileFrom.getAbsolutePath());
                             try {
                                 //copy并删除
                                 String absolutePath = fileFrom.getAbsolutePath();
@@ -152,9 +153,15 @@ public class Main {
                                 IOUtils.copy(fileInputStream, fileOutputStream);
                                 fileInputStream.close();
                                 fileOutputStream.close();
-                            }catch (Exception e){
+                                //删除源文件
+                                boolean delete = fileFrom.delete();
+                                log.info("文件：{}--删除{}", fileFrom.getName(), delete ? "成功" : "失败");
+
+                                log.info("新文件名:{}", fileTo.getAbsolutePath());
+                            } catch (Exception e) {
                                 e.printStackTrace();
                             }
+                            log.info("--end修改自定义拓展文件名");
                         }
                     }
                 }
