@@ -12,8 +12,8 @@ public class Main {
         String classPath = System.getProperty("user.dir");
         log.info("当前目录:{}",classPath);
 
-        /*File directory = new File("F:\\java_test\\git\\hexo\\review_demo\\src\\test\\resources\\a");
-        new Main().b(directory);*/
+         File directory = new File(classPath);
+        new Main().b(directory);
     }
 
     public   void b(File directory) {
