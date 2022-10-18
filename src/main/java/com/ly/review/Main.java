@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class Main {
     Pattern ptCompileAll = Pattern.compile("_[0-9]{6}_[0-9]{6}(\\([0-9]+\\))*\\..+");
-    Pattern ptCompileNum = Pattern.compile("_[0-9]{6}_[0-9]{6}");
+    Pattern ptCompileNum = Pattern.compile("_[0-9]{6}_[0-9]{6}(\\([0-9]+\\))*");
 
     public static void main(String[] args) {
         String classPath = System.getProperty("user.dir");
@@ -190,6 +190,8 @@ public class Main {
             while (matcher.find()) {
                 s = matcher.group();
             }
+            s = s.replaceAll("\\(", "")
+                    .replaceAll("\\)", "");
             if (!"".equals(s)) {
                 String s1 = s.replaceAll("_", "");
                 num = Long.parseLong(s1);
