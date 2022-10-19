@@ -1,7 +1,6 @@
 package com.ly.review;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 
 import java.io.File;
@@ -18,12 +17,14 @@ import java.util.stream.Collectors;
 @Slf4j
 public class Main {
     Pattern ptCompileAll = Pattern.compile("_[0-9]{6}_[0-9]{6}([ ]\\([0-9]+\\))*\\..+");
-    Pattern ptCompileNum = Pattern.compile("_[0-9]{6}_[0-9]{6}([ ]\\([0-9]+\\))*");
+    Pattern ptCompileCompare = Pattern.compile("_[0-9]{6}_[0-9]{6}([ ]\\([0-9]+\\))*");
+    private final String extraKeyDate = "extraDate";
+    private final String extraKeyNo = "extraNo";
 
     public static void main(String[] args) {
         String classPath = System.getProperty("user.dir");
         log.info("当前目录:{}", classPath);
-        //classPath = "D:\\Users\\ly\\Documents\\git\\hexo\\review_demo\\src\\test\\resources\\a";
+        //classPath = "F:\\java_test\\git\\hexo\\review_demo\\src\\test\\resources\\a";
 
         File directory = new File(classPath);
         new Main().b(directory);
@@ -88,9 +89,20 @@ public class Main {
                             String name1 = o1.getName();
                             String name2 = o2.getName();
 
-                            Long name1Num = getExtraNum(name1);
-                            Long name2Num = getExtraNum(name2);
-                            return name1Num.compareTo(name2Num);
+                            Map<String, Long> extraNum1 = getExtraNum(name1);
+                            Long extraDate1 = extraNum1.get(extraKeyDate);
+                            Long extraNo1 = extraNum1.get(extraKeyNo);
+
+
+                            Map<String, Long> extraNum2 = getExtraNum(name2);
+                            Long extraDate2 = extraNum2.get(extraKeyDate);
+                            Long extraNo2 = extraNum2.get(extraKeyNo);
+                            int dateCompare = extraDate1.compareTo(extraDate2);
+                            if (dateCompare == 0) {
+                                return extraNo1.compareTo(extraNo2);
+                            } else {
+                                return dateCompare;
+                            }
                         }).get();
                         log.info("--end--重复的文件\n");
                         log.info("文件最大的是：" + fileMax.getName());
@@ -181,24 +193,45 @@ public class Main {
      * @param fileName
      * @return
      */
-    private Long getExtraNum(String fileName) {
-        Long num = 0L;
+    private Map<String, Long> getExtraNum(String fileName) {
+        Map<String, Long> hashMap = new HashMap<>();
+        hashMap.put(this.extraKeyDate, 0L);
+        hashMap.put(this.extraKeyNo, 0L);
+
         //如果是自定义拓展
         if (isAutoExtra(fileName)) {
-            Matcher matcher = ptCompileNum.matcher(fileName);
+            Matcher matcher = ptCompileCompare.matcher(fileName);
             String s = "";
             while (matcher.find()) {
                 s = matcher.group();
             }
-            s = s.replaceAll("\\(", "")
-                    .replaceAll("\\)", "")
-                    .replaceAll("[ ]","");
-            if (!"".equals(s)) {
-                String s1 = s.replaceAll("_", "");
-                num = Long.parseLong(s1);
+
+
+            Matcher matcherDate = Pattern.compile("_[0-9]{6}_[0-9]{6}")
+                    .matcher(s);
+            Matcher matcherNo = Pattern.compile("(\\([0-9]+\\))")
+                    .matcher(s);
+            String sDate = "";
+            String sNo = "";
+
+            //处理时间
+            while (matcherDate.find()) {
+                sDate = matcherDate.group();
+            }
+            if (!"".equals(sDate)) {
+                hashMap.put(this.extraKeyDate, Long.parseLong(sDate.replace("_", "")));
+            }
+
+            //处理序号
+            while (matcherNo.find()) {
+                sNo = matcherNo.group();
+            }
+            if (!"".equals(sNo)) {
+                hashMap.put(this.extraKeyNo, Long.parseLong(sNo.replace("(", "")
+                        .replace(")", "")));
             }
         }
-        return num;
+        return hashMap;
     }
 
     /**
