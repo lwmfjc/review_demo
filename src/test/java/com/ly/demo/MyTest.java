@@ -8,6 +8,7 @@ import sun.misc.Unsafe;
 import java.io.File;
 import java.lang.reflect.Field;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
@@ -21,6 +22,10 @@ public class MyTest {
         //分割字符串
         String[] split = a.split(",");
         String[] split1 = b.split(",");
+        List<String> list=new ArrayList<>();
+        ArrayList arrayList;
+        Arrays.asList();
+        //ConcurrentHashMap
         //hashMap
         HashMap<String,Integer> map1=new HashMap<>();
         HashMap<String,Integer> map2=new HashMap<>();
