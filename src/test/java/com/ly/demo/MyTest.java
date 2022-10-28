@@ -5,8 +5,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.util.StringUtils;
 import sun.misc.Unsafe;
 
-import java.io.File;
+import java.io.*;
 import java.lang.reflect.Field;
+import java.nio.file.*;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.logging.Logger;
@@ -16,7 +17,34 @@ import java.util.stream.Collectors;
 public class MyTest {
 
     @Test
+    public void myTest() throws IOException, InterruptedException {
+        // 创建 WatchService 对象
+        WatchService watchService = FileSystems.getDefault().newWatchService();
+
+// 初始化一个被监控文件夹的 Path 类:
+        Path path = Paths.get("F:\\java_test\\git\\hexo\\review_demo\\src\\com\\hp");
+// 将这个 path 对象注册到 WatchService（监控服务） 中去
+        WatchKey key = path.register(
+                watchService, StandardWatchEventKinds.ENTRY_CREATE,StandardWatchEventKinds.ENTRY_DELETE
+                ,StandardWatchEventKinds.ENTRY_MODIFY);
+
+        while ((key = watchService.take()) != null) {
+            System.out.println("检测到了事件--start--");
+            for (WatchEvent<?> event : key.pollEvents()) {
+                // 可以调用 WatchEvent 对象的方法做一些事情比如输出事件的具体上下文信息
+                System.out.println("event.kind().name()"+event.kind().name());
+            }
+            key.reset();
+            System.out.println("检测到了事件--end--");
+        }
+
+    }
+
+    @Test
     public void bb(){
+        BufferedInputStream bufferedInputStream;
+        InputStream reader;
+        LinkedList linkedList;
         String a="11,22,33,21";
         String b="33,21,11,22";
         //分割字符串
